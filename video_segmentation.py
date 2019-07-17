@@ -277,11 +277,11 @@ def main(embedded_data_path, human_data_path, lmda, alfa, f_class, f_opts, outpu
     for batch in range(n_batch):
         summary_stats, _comp_data = run_batch(*args, batch=batch)
         summary.append(summary_stats)
-        pd.DataFrame(summary).to_pickle('EventR2_GRU_summary' + output_tag + '.pkl')
+        pd.DataFrame(summary).to_pickle('simulations/saved_simulations/EventR2_GRU_summary' + output_tag + '.pkl')
 
         _comp_data['Batch'] = [batch] * len(_comp_data['t']) 
         comp_data.append(pd.DataFrame(_comp_data))
-        pd.DataFrame(comp_data).to_pickle('EventR2_GRU_comp' + output_tag + '.pkl')
+        pd.DataFrame(comp_data).to_pickle('simulations/saved_simulations/EventR2_GRU_comp' + output_tag + '.pkl')
 
     return 
 
