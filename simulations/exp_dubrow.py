@@ -44,13 +44,6 @@ def generate_experiment(seed=None, scaling_factor=1.0, event_duration=5, n_event
 
 # diagnostics functions
 
-# def evaluate_seg(e_samples, e_true):
-    acc = []
-    for e in e_samples:
-        acc.append(np.mean(np.array(e) == e_true))
-    return np.mean(acc)
-
-
 def hash_y(y):
     if y is not None:
         return np.concatenate([y[0], [y[1]], [y[2]]])
@@ -145,10 +138,16 @@ def run_block(sem_kwargs, gibbs_kwargs, epsilon_e, block_number=0):
     sem = None
     return results
 
-def run_subject(sem_kwargs, gibbs_kwargs, epsilon_e, n_runs=16, subj_n=0):
+def run_subject(sem_kwargs, gibbs_kwargs, epsilon_e, n_runs=16, subj_n=0, progress_bar=True):
     subject_results = []
-    for ii in tqdm(range(n_runs), desc='Running Subject'):
-        subject_results.append(run_block(sem_kwargs, gibbs_kwargs, epsilon_e, block_number=ii))
+
+    if progress_bar:
+        for ii in tqdm(range(n_runs), desc='Running Subject'):
+            subject_results.append(run_block(sem_kwargs, gibbs_kwargs, epsilon_e, block_number=ii))
+    else:
+        for ii in range(n_runs):
+            subject_results.append(run_block(sem_kwargs, gibbs_kwargs, epsilon_e, block_number=ii))
+            
     subject_results = pd.concat(subject_results)
     subject_results['Subject'] = [subj_n] * len(subject_results)
     return subject_results

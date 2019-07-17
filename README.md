@@ -1,7 +1,8 @@
 # EventSegmentation
 
-Contains the SEM model and a few basic demonstrations. Very much a work in progress and the documentation here lags as 
-a consequence.
+Accompanying code for the manuscript "Structured event memory: a neuro-symbolic model of event cognition", Franklin, Norman, Ranganath, Zacks, and Gershman 2019, BioRxiv, [https://doi.org/10.1101/541607](https://doi.org/10.1101/541607)
+
+Contains the SEM model,  a few basic demonstrations, and the all of the simulations in the paper.
 
 The main code is listed in the `models` module:
 * `models.sem`: contains the code for the SEM model
@@ -27,7 +28,11 @@ The dimensionality of the videos has been reduced using a variational auto-encod
 * `Memory Simluation (Bower, 3 setences)`: a simulation of the classic finding in Bower, 1979
 * `Memory Simluation (Radvansky & Copeland, 2006)`: a simulation of the findings in Radvansky & Copeland, 2006
 * `Memory Simluation (Pettijohn, et al, 2016)`:a simulation of the findings in Pettijohn, et al, 2016
-* `Memory Simluation (Dubrow and Davachi, 2013; 2016)`: a simulation of the finding in Dubrow and Davachi, 2013
+* `Memory Simluation (Dubrow and Davachi, 2013; 2016) `: a simulation of the finding in Dubrow and Davachi, 2013
+
+There are also follow-up analyses:
+* `Memory Simluation (Dubrow and Davachi, 2013; 2016) parameter sensitivity`: looks at memory  corruption noise and how it effects order memory
+* `Segmentation - Generalizing Structure (Stationary)`: looks at a reduced model that does not simulate event dynamics.
 
 #### Installation Instructions
 
@@ -57,7 +62,3 @@ Note: if these instructions do not work for some reason, this library uses:
     Tensorflow v1.9
     Keras v2.2.0
     Anaconda
-
-##### Known issues:
-
-* Progress bars seem to have problems with this installation. 
