@@ -11,6 +11,7 @@ The main code is listed in the `models` module:
     
 There are a few prepackaged demonstrations in Jupyter notebooks meant to demonstrate basic functions of the model.
  These have been pre-run and can be opened on github without installation:
+* `Demo - Segmentation and Memory Tutorial`: This brief tutorial walks through some basic functions of segmentation and the memory model in a toy 2-d world.  This also includes a comparison between SEM and an HMM in Memory.
 * `Demo - Toy Data (Segmentation)`: These simulations demonstrate how SEM can segement simple, 2D dynamical systems with
 various different methods of estimating the event dynamics of the system.
 * `Demo - HRR.ipynb`: Demonstration of the Holographic reduced representation

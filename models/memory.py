@@ -88,7 +88,7 @@ def create_corrupted_trace(x, e, tau, epsilon_e, b, return_random_draws_of_p_e=F
     :param x:           np.array of size nXd, featur vectors
     :param e:           np.array of length n, event labels
     :param tau:         float, feature corruption
-    :param epsilon_e:   float, event label corrruption
+    :param epsilon_e:   float, event label precision
     :param b:           int, time index corruption
 
     :return y_mem: list of corrupted memory tuples:
