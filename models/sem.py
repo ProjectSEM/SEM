@@ -3,6 +3,7 @@ import tensorflow as tf
 from scipy.misc import logsumexp
 from tqdm import tqdm
 from keras import backend as K
+from event_models import GRUEvent
 
 
 class Results(object):
@@ -16,7 +17,7 @@ class SEM(object):
     in python. More documentation to come!
     """
 
-    def __init__(self, lmda=1., alfa=10.0, f_class=None, f_opts=None):
+    def __init__(self, lmda=1., alfa=10.0, f_class=GRUEvent, f_opts=None):
         """
         Parameters
         ----------
