@@ -1,8 +1,9 @@
+
+
 import seaborn as sns
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import normalize
 from models import SEM, GRUEvent, clear_sem
 from scipy.stats import multivariate_normal
 from scipy.special import logsumexp
@@ -290,6 +291,9 @@ def main(embedded_data_path, human_data_path, lmda, alfa, f_class, f_opts, outpu
 
 
 if __name__ == "__main__":
+    import os
+
+    os.chdir('../')
 
     embedded_data_path = 'data/videodata/video_color_Z_embedded_64_5epoch.npy'
     human_data_path = './data/zachs2006_data021011.dat'
