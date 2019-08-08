@@ -19,7 +19,7 @@ all be run in Google colab (the accompanying jupyter notebooks have been pre-run
     These simulations demonstrate how SEM can segement simple, 2D dynamical systems with
     various different methods of estimating the event dynamics of the system.
     
-    <a href="https://colab.research.google.com/github/ProjectSEM/SEM/blob/master/Tutorials/Demo - Segmentation and Memory Tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
+    <a href="https://colab.research.google.com/github/ProjectSEM/SEM/blob/master/Tutorials/Demo - Toy Data (Segmentation).ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
      
      &nbsp;
 
@@ -38,9 +38,3 @@ all be run in Google colab (the accompanying jupyter notebooks have been pre-run
     <a href="https://colab.research.google.com/github/ProjectSEM/SEM/blob/master/Tutorials/Demo - Motion Capture Data.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
     
     &nbsp;
-
-* Segmentation - Generalizing Structure
-
-    a demonstratation of how the HRR and Bayesian inference are used to generalize structure when delineating event boundaries.
-
-    <a href="https://colab.research.google.com/github/ProjectSEM/SEM/blob/master/Tutorials/Segmentation - Generalizing Structure.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
