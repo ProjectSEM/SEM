@@ -1,6 +1,6 @@
 # EventSegmentation 
 
-<a href="https://colab.research.google.com/github/nicktfranklin/SEM/blob/master/Tutorials/Demo - Segmentation and Memory Tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
+<a href="https://colab.research.google.com/github/ProjectSEM/SEM/blob/master/Tutorials/Demo - Segmentation and Memory Tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" title="Open and Execute in Google Colaboratory"></a>
 
 Accompanying code for the manuscript "Structured event memory: a neuro-symbolic model of event cognition", Franklin, Norman, Ranganath, Zacks, and Gershman 2019, BioRxiv, [https://doi.org/10.1101/541607](https://doi.org/10.1101/541607)
 
