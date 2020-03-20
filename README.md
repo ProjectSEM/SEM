@@ -4,7 +4,7 @@
 
 Accompanying code for the manuscript "Structured event memory: a neuro-symbolic model of event cognition", Franklin, Norman, Ranganath, Zacks, and Gershman (in press), *Psychological Review*, [preprint](https://doi.org/10.1101/541607)
 
-Contains the SEM model, a few basic demonstrations, and the all of the simulations in the paper. An up-to-date version of the model (but not the simluations) can be found in the following github repository: [https://github.com/nicktfranklin/SEM3](https://github.com/nicktfranklin/SEM3)
+Contains the SEM model, a few basic demonstrations, and the all of the simulations in the paper. An up-to-date version of the model (but not the simluations) can be found in the following github repository: [https://github.com/nicktfranklin/SEM2](https://github.com/nicktfranklin/SEM2)
 
 
 
